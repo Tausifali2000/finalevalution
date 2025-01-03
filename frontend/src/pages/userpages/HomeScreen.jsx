@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import ToggleButton from "react-toggle-button";
 
-import CreateDialog from "../../components/createDialog.jsx";
+import CreateDialog from "../../components/CreateDialog.jsx";
 import DeleteDialog from "../../components/DeleteDialog.jsx";
 
 import Dropdown from "../../components/Dropdown.jsx";
