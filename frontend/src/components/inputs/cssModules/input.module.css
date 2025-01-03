@@ -1,0 +1,46 @@
+.input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  height: 119px;
+  border-radius: 8px;
+  background-color: #18181B;
+ }
+ 
+ .input button {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%; 
+  margin-left: 94%;
+  margin-top: -10px;
+  background: #444444;
+  cursor: pointer;
+ }
+
+ .deleteIcon {
+  margin-top: 5px;
+}
+
+.inputLabel {
+  background-color: transparent;
+  font-size: 20px;
+  padding-top: 16px;
+  padding-left: 21px;
+  color: #fff;
+}
+
+.inputLabel::placeholder {
+  color: #fff;
+}
+
+.hint {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #555555;
+  padding-left: 21px;
+  padding-top: 10px;
+}

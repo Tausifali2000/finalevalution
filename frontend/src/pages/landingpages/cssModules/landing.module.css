@@ -1,0 +1,207 @@
+/* body 
+{
+  background: linear-gradient(0deg, #121212, #121212),
+linear-gradient(0deg, #171923, #171923),
+linear-gradient(0deg, #171923, #171923);
+
+} */
+
+.landingpage {
+  display: flex;
+  background: linear-gradient(0deg, #121212, #121212),
+linear-gradient(0deg, #171923, #171923),
+linear-gradient(0deg, #171923, #171923);
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+
+ font-family: "Poppins", serif;
+ 
+
+  color: #fff;
+}
+
+.header {
+  margin-top: 2vh;
+ 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  /* background-color: #282845; */
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.headerLogo {
+  padding-left: 95px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.logoIcon {
+  width: 35px;
+  height: 35px;
+  padding-right: 6px;
+}
+
+.headerbuttons {
+  padding-right: 65px;
+}
+
+
+
+
+
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #4b4b6a;
+  color: #fff;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  color: #7EA6FF;
+  border: solid 1px #7EA6FF;
+  border-radius: 6px;
+  transition: background-color 0.4s;
+}
+
+.btn.secondary:hover {
+  background-color: #1A5FFF;
+  color: #ffffff;
+  border-color:#1A5FFF ;
+}
+
+.btn.primary {
+  background-color: #1A5FFF;
+  transition: background-color 0.3s;
+}
+
+.btn.primary:hover {
+ background-color: #1A3FFF;
+}
+
+
+
+  
+
+.triangle {
+  position: absolute;
+  width: 288px;
+  height: 163px;
+  top: 35vh;
+  left: 2vw;
+  z-index: 0;
+  
+
+}
+
+.semicircle {
+  position: absolute;
+  top: 120px;
+  right: 10px;
+}
+
+.herosection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+ 
+  max-width: 1000px;
+  margin-top: 10vh; 
+  z-index: 100;
+  
+}
+.herosection .title {
+  font-size: 68px;
+  width: 811px;
+ 
+  margin: 20px 0;
+  font-family: "Outfit", serif;
+  background: linear-gradient(90deg, #4B83FF 0%, #B794F4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #FFFFFFEB;
+  width: 800px;
+  justify-self: center;
+}
+
+.imagepreview .previewimage {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 60px;
+  z-index: 1;
+  position: relative;
+}
+
+.imagepreview {
+  position: relative;
+}
+
+.yellowBlurBg {
+  position: absolute;
+  left: -50px;
+}
+
+.blueBlurBg {
+  position: absolute;
+  right: -70px;
+  top: 50px;
+}
+
+.footer {
+  width: 100%;
+  padding: 50px;
+  /* background-color: #282845; */
+  display: flex;
+  justify-content: space-evenly;
+  color: #cfcfcf;
+}
+.footerSection a:hover {
+  color: #1e50ff;
+}
+.footersection {
+  margin: 0 20px;
+}
+
+.footersection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footersection h4 {
+  margin-bottom: 10px;
+}
+
+.footersection li {
+  margin: 5px 0;
+  cursor: pointer;
+  transition: color 0.4s;
+}
+
+.footersection li:hover {
+  color: #1e50ff;
+  
+}

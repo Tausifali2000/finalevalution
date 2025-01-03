@@ -1,0 +1,41 @@
+.body {
+ 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", serif;
+  font-weight: 500;
+}
+
+.container {
+  width: 60vw;
+  
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  margin-top: 20vh;
+
+}
+
+.bubbleCon {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2vw;
+  margin-top: 2vh;
+  
+}
+
+.inputCon {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2vw;
+  margin-top: 2vh;
+
+}
+

@@ -1,0 +1,44 @@
+.container {
+  width: 370px;
+  height: 61px;
+  display: flex;
+  gap: 1.4rem;
+
+  
+  
+}
+
+.input {
+  width: 331px;
+  height: 61px;
+  border-radius: 4px;
+  font-size: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 6.3px 0px #00000040;
+  padding-left: 1.5rem;
+
+}
+
+.input::placeholder {
+  color: #847F7F;
+  font-size: 15px;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+
+.btn {
+  width: 62px;
+  height: 61px;
+  border-radius: 5px;
+  background: #1A5FFF;
+  cursor: pointer;
+
+}
+
+.btn img {
+  z-index: 50;
+  background-color: transparent;
+}

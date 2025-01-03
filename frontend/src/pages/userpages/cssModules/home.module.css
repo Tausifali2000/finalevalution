@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.homebody {
+  width: 100%;
+  height: 100%;
+  
+  background: linear-gradient(0deg, #121212, #121212),
+   linear-gradient(0deg, #18181B, #18181B);
+    
+   font-family: "Open Sans", serif;
+}
+
+.header {
+  
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  color: white;
+  position: relative;
+  border-bottom: 2px solid #FFFFFF29;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 292px;
+  height: 40px;
+  top: 2vh;
+  left: 40vw;
+  font: 16px;
+  text-align: center;
+  border: 1px solid #FFFFFF29
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: absolute;
+  right: 5vw;
+}
+
+.share {
+  width: 86px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background: #1A5FFF;
+  color: white;
+  cursor: pointer;
+
+}
+
+.share:hover {
+  background-color: #1A7FFF;
+  transition: background-color 0.3s;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.workspace {
+  margin-left: auto;
+  margin-right: auto;
+ 
+  width: 1050px;
+  height: 100vh;
+  padding-top: 40px;
+
+}
+
+.folderbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.create1 {
+  background: #FFFFFF14;
+  border: none;
+  color: white;
+  height:40px;
+  width: 200px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 0.4rem;
+
+}
+
+.folders {
+ 
+  width: 100%;
+  display: flex;
+  padding-left: 1vw;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0.8rem;
+  height: auto;
+  font-size: 16px;
+  
+}
+
+.container0 {
+  padding-top: 2vh;
+  display: flex;
+  width: 100%;
+
+}
+
+.createform {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: #1A5FFF;
+  color: white;
+  width: 240px;
+  height: 270px;
+  gap: 6vh;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans", serif;
+  padding: 40px 30px;
+cursor: pointer;
+border-radius: 6px
+
+}
+
+.folderc {
+  position: relative;
+display: flex;
+align-items: center;
+  width: 213px;
+  height:40px;
+  font-weight: 600;  
+  color: white;
+    font-size:16x;  
+    padding: 8px 16px 8px 16px;
+  background: #FFFFFF14;
+
+  border-radius: 6px 0px 0px 0px;
+  
+  
+}
+
+.folder {
+  background: transparent;
+  width: 75%;
+  height: 100%;
+  border: none;
+  position: absolute;
+  left: 1rem;
+  color: white;
+ 
+  width: 100;
+  cursor: pointer;
+}
+
+.x {
+  height: 100%;
+ width: 10%;
+ cursor: pointer;
+
+  background-color: transparent;
+  
+  position: absolute;
+  right: 1rem;
+  
+}
+
+.forms {
+  padding-left: 1.4rem;
+  display: flex;
+  
+  gap: 1vw;
+  
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.formList {
+  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1vw;
+  height: auto;
+  flex-wrap: wrap;
+  
+
+}
+
+.fc {
+  background: #FFFFFF80;
+  height: 270px;
+  width: 220px;
+ 
+  border-radius: 6px;
+}
+
+.form {
+  
+  display: flex;
+  align-items: center;
+ 
+  justify-content: center;
+  background: transparent;
+  z-index: 25;
+color: white;
+  width: 240px;
+height: 245px;
+gap: 6vh;
+font-size: 18px;
+
+cursor: pointer;
+
+}
+
+.x2 {
+cursor: pointer;
+  margin-left: 92%;
+  margin-top: 1%;
+  background-color: transparent;
+ 
+  
+  
+}

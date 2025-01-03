@@ -1,0 +1,185 @@
+.main {
+    background-color: #18181B;
+    font-family: "Open Sans", serif;
+    /* height: 100vh; */
+}
+
+.mainContainer {
+    padding: 150px 20px 60px 20px; 
+
+}
+
+.userheader {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    background-color: #18181B;
+    position: fixed;
+    z-index: 2;
+}
+
+.response {
+    margin: 0 auto;
+}
+
+
+.searchForm {
+    background-color: #37373E;
+    height: 23px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 3px;
+    color: #767676D1;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2vw;
+    gap: 1vw;
+}
+
+.labelColor {
+    margin-top: 3px;
+    color: #FFFFFFEB;
+}
+
+.create {
+    /* width: 100vw; */
+    height: auto;
+    padding-top: 100px;
+    display: flex;
+    background-color: #1F1F23;
+    /* border: black 1px solid; */
+    padding-bottom: 20px;
+}
+
+
+
+.shareBtn {
+    width: 65px;
+    height: 25px;
+    gap: 0px;
+    border-radius: 4px;
+    background-color: #1A5FFF;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.saveBtn {
+    width: 65px;
+    height: 25px;
+    gap: 0px;
+    border-radius: 4px;
+    background-color: #4ADE80CC;
+    color: #fff;
+    cursor: pointer;
+}
+
+.cursorPointer {
+    cursor: pointer;
+    object-fit: contain;
+}
+
+
+.flowButton {
+    width: 65px;
+    height: 25px;
+    gap: 0px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #7EA6FF;
+    margin-right: 20px;
+    border: 1px solid #7EA6FF;
+}
+
+.responseButton {
+    width: 65px;
+    height: 25px;
+    gap: 0px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+    /* margin-left: 20px; */
+    /* border: 1px solid #7EA6FF; */
+}
+
+.counterContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.views {
+    margin: 0px 60px;
+    width: 195.75px;
+    height: 120.83px;
+
+    border-radius: 16px;
+    background-color: #323232;
+    font-family: Open Sans;
+    font-size: 25.78px;
+    font-weight: 600;
+    line-height: 35.1px;
+    padding: 24px;
+    color: #fff;
+
+}
+
+.responseTable {
+    overflow-x: auto;
+    width: 90%;
+    justify-self: center;
+    margin-bottom: 100px;
+}
+
+.responseTable table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.responseTable th,
+.responseTable td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #333333;
+    color: #fff;
+    font-family: "Open Sans", serif;
+}
+
+.completionContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.pieChart {
+    height: 300px;
+    width: 300px;
+}
+
+.completeLabel {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.completeRate {
+    margin: 0px 60px;
+    width: 244px;
+    height: 120px;
+    border-radius: 16px;
+    background-color: #323232;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35.1px;
+    padding: 24px 15px 24px 24px;
+    color: #fff;
+    align-self: center;
+}

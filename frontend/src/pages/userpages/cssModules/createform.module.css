@@ -1,0 +1,259 @@
+.body{
+  font-family: "Open Sans", serif;
+}
+
+.userheader {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  background-color: #18181B;
+  position: fixed;
+  z-index: 2;
+}
+
+.formname {
+  margin-left: 25px;
+  
+}
+
+.formname input{
+  color: white;
+}
+
+.searchForm {
+  background-color: #37373E;
+  height: 23px;
+  padding: 5px;
+  width: 200px;
+  border-radius: 3px;
+  color: #767676D1;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 2vw ;
+  gap: 1vw;
+}
+
+.labelColor {
+  margin-top: 3px;
+  color: #FFFFFFEB;
+}
+
+.create {
+  /* width: 100vw; */
+  height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  background-color: #1F1F23;
+  /* border: black 1px solid; */
+  padding-bottom: 20px;
+}
+.sidebar {
+  width: 25vw;
+  border: #FFFFFF29 solid 1px;
+  background-color: #18181B;
+  border-radius: 8px;
+  margin-left: 25px;
+  padding: 65px 17px 65px 17px;
+  margin-bottom: 16px;
+  min-height: fit-content;
+}
+
+.sidebarSubHeading {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFFFFFEB;
+  margin-bottom: 10px;
+}
+
+.sidebar button {
+  display: flex;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #1F1F23;
+  border: 1px solid #27272A;
+  color: #FFFFFFEB;
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+  width: 148px;
+  margin-left: 12px;
+}
+
+.buttonIcon {
+  padding-right: 5px;
+}
+
+.iconPadding10 {
+  padding-right: 10px;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bubbles {
+ padding: 0.2rem;
+}
+
+.bubblesbtn {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.inputsbtn {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  margin-left: 25vw;
+  
+
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 51px;
+  height: 21px;
+  margin-top: 2px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+    width: 15px;
+    left: 6px;
+    bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #1A5FFF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #1A5FFF;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.start {
+  width: 309px;
+    background-color: #18181B;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.start button {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.shareBtn {
+  width: 65px;
+  height: 25px;
+  gap: 0px;
+  border-radius: 4px;
+  background-color:#1A5FFF;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.saveBtn {
+  width: 65px;
+  height: 25px;
+  gap: 0px;
+  border-radius: 4px;
+  background-color:#4ADE80CC;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cursorPointer {
+  cursor: pointer;
+  object-fit:contain;
+}
+
+
+.flowButton {
+  width: 65px;
+  height: 25px;
+  gap: 0px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #7EA6FF;
+  margin-right: 20px;
+  border: 1px solid #7EA6FF;
+}
+
+.responseButton {
+  width: 65px;
+  height: 25px;
+  gap: 0px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  /* margin-left: 20px; */
+  /* border: 1px solid #7EA6FF; */
+}
+

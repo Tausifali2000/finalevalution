@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Container for the back button */
+.backbutton {
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.backbutton img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Background shapes */
+img[src="/triangle2.png"] {
+  position: absolute;
+  width: 283.27px;
+  height: 273.61px;
+  top: 35vh;
+  left: 8vw;
+  z-index: 0;
+
+}
+
+img[src="/ellipse1.png"] {
+  position: absolute;
+  width: 229px;
+  height: auto;
+ left: 70vw;
+  bottom: 0;
+}
+
+img[src="/ellipse2.png"] {
+  position: absolute;
+  width: auto;
+  height: auto;
+
+  top: 15vh;
+  right: 0;
+}
+
+/* Form container */
+.formcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(0deg, #121212, #121212),
+  linear-gradient(0deg, #171923, #171923),
+  linear-gradient(0deg, #171923, #171923);
+  color: #ffffff;
+ 
+  padding: 20px;
+  
+}
+
+.formcontainer form {
+  
+  
+  font-family: "Poppins", serif;
+
+  width: 314px;
+  height: 239px;
+  z-index: 10;
+}
+
+.formcontainer form div {
+  margin-bottom: 20px;
+}
+
+.formcontainer label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.formcontainer input {
+  width: 100%;
+  padding: 12px 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  border: 1px solid #FFFFFF80;
+  background-color: transparent;
+  height: 41.31px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 10px 0px #00000040;
+
+}
+
+.formcontainer input:-webkit-autofill {
+  background-color: #121212 !important; /* Match your input's background */
+  color: #ffffff !important; /* Ensure the text remains visible */
+  -webkit-text-fill-color: #ffffff !important; /* Explicitly set the text fill color */
+  -webkit-box-shadow: 0 0 0 1000px #121212 inset !important; /* Match the form's background */
+  box-shadow: 0 0 0 1000px #121212 inset !important;
+  padding-left: 12px 10px; /* Match the form's background */
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 300;
+  border: 1px solid #FFFFFF80;
+}
+
+
+.formcontainer input:focus {
+  outline: none;
+  border-color: #1e50ff;
+  box-shadow: 0 0 5px #1e50ff;
+}
+
+
+
+/* Buttons */
+.formcontainer button {
+  width: 100%;
+  padding: 12px 15px;
+  background: #1A5FFF;
+  height: 41.31px;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px 0px #E9444B40;
+
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formcontainer button:hover {
+  background-color: #1445cc;
+}
+
+/* Link styles */
+
+.para {
+  width: 259px;
+ 
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+.formcontainer p {
+  
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 400;
+}
+
+.formcontainer a {
+  color: #1A5FFF;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 0.2rem;
+}
+
+.formcontainer a:hover {
+  text-decoration: underline;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .formcontainer form {
+    width: 90%;
+  }
+
+  img[src="/triangle2.png"],
+  img[src="/ellipse1.png"],
+  img[src="/ellipse2.png"] {
+    display: none; /* Hide shapes on smaller screens */
+  }
+}
+
+.formcontainer input:-webkit-autofill {
+  background-color: #121212 !important; /* Match your input's background */
+  color: #ffffff !important; /* Ensure the text remains visible */
+  -webkit-text-fill-color: #ffffff !important; /* Explicitly set the text fill color */
+  -webkit-box-shadow: 0 0 0 1000px #121212 inset !important; /* Match the form's background */
+  box-shadow: 0 0 0 1000px #121212 inset !important;
+  padding-left: 10px; /* Match the form's background */
+ 
+}
+
