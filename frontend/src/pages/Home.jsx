@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeScreen from './userpages/HomeScreen'
-import LandingPage from './landingpages/Landingpage'
+import LandingPage from './landingpages/LandingPage'
 import { useAuthStore } from '../../store/authUser'
 
 const Home = () => {
